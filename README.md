@@ -10,7 +10,7 @@ Digital tracking of **waste segregation**, **recycling plants**, **landfill util
 
 ```bash
 cp server/.env.example server/.env   # then set MONGO_URI and JWT_SECRET
-npm run install:all     # installs root, server and client deps
+npm install             # installs root, server and client deps
 npm run dev             # API on :5000 + React dev server on http://localhost:5173
 ```
 
